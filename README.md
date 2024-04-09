@@ -126,7 +126,7 @@ Tools like **Glances**, **Sar**, **Vmstat**, **Monitorix**, and **NETHogs** offe
 
 - `http://localhost:8080/monitorix` to access the Monitorix web interface. 
   ![alt text](assets/monitorix.png)
-  ![alt text](<Recording 2024-04-09 at 12.09.44.gif>)
+  ![alt text](<assets/Recording 2024-04-09 at 12.09.44.gif>)
 
 ## **NETHogs** 
 
