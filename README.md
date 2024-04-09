@@ -92,8 +92,7 @@ Tools like **Glances**, **Sar**, **Vmstat**, **Monitorix**, and **NETHogs** offe
 - We first install it with `sudo apt install glances`
 - `glances` to start it
 - `q` to quit
-
-![alt text](assets/glances.png)
+ ![alt text](assets/glances.png)
 
 ## **Sar**
 
