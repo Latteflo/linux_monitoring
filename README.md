@@ -37,13 +37,14 @@ This is a repository for monitoring a Kali Linux VM. Monitoring is essential for
    ![alt text](assets/last.png)
 
    - and for the activity of the current user we can use `w` or `who` commands.
-
- - ![alt text](assets/who.png)
+   ![alt text](assets/who.png)
   
-2. **Accounting Utilities**: Tools like **acct**, **sar**, and **atop** provide detailed insights into system resource utilization, user activity, and performance metrics.
+1. **Accounting Utilities**: Tools like **acct**, **sar**, and **atop** provide detailed insights into system resource utilization, user activity, and performance metrics.
 
    - `acct` provides process accounting information. we need to install it with `sudo apt install acct` 
-  ![alt text](assets/acct.png)
+  
+    ![alt text](assets/acct.png)
+
   and we can process the activities with the following: 
    - `lastcomm` shows the last commands executed by users.
    - `ac`- displays statistics about users' connect time.
@@ -76,7 +77,6 @@ This is a repository for monitoring a Kali Linux VM. Monitoring is essential for
     ![alt text](assets/ps_aux.png)
       -  `pstree` shows processes in a tree format.
     ![alt text](assets/pstree.png)
-
 
 
 # Advanced Monitoring:
@@ -126,7 +126,7 @@ Tools like **Glances**, **Sar**, **Vmstat**, **Monitorix**, and **NETHogs** offe
 
 - `http://localhost:8080/monitorix` to access the Monitorix web interface. 
   ![alt text](assets/monitorix.png)
-
+  ![alt text](<Recording 2024-04-09 at 12.09.44.gif>)
 
 ## **NETHogs** 
 
@@ -134,4 +134,6 @@ Tools like **Glances**, **Sar**, **Vmstat**, **Monitorix**, and **NETHogs** offe
 -  It can help identify network bottlenecks, track network activity, and troubleshoot network performance issues.
 - We first install it with `sudo apt install nethogs` and then run it with `nethogs`.
   
-![alt text](assets/nethogs.png) 
+  ![alt text](assets/nethogs.png) 
+
+
